@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+         <h1 class="name"><b>EDITABLE RESUME BY ARMISH AMEEN</b></h1>
+    <b><p class="profile"> CODER & GRAPHIC DESIGNER</p></b>
+    <div class="discription">  Create your interactive resume free of cost and get it now</div>
+        </div>
+    
+         <hr>
+    <div class="main"> 
+        <h3 class="heading" >Please input your resume data by filling form ;</h3>
+  
+    
+      <form id="resumeform">
+            <fieldset>
+                
+                 <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required>
+                  <br><br>
+        
+                  <label for="EMAIL">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                  <br><br>
+        
+                  <label for="phone">Phone:</label>
+                  <input type="tel" id="phone" name="phone" required>
+                  <br><br>
+        </fieldset>
+        
+        <fieldset>
+       
+        <label for="EDUCATION">Education</label>
+        <textarea  id="education" name="education" rows="4" required></textarea> <br><br>
+        </fieldset>
+        
+        <fieldset>
+           
+            <label for="experience">Experience</label>
+            <textarea  id="experience" name="experience" rows="4" required></textarea> <br><br>
+            </fieldset>
+        
+            <fieldset>
+                
+                <label for="skills">Skills</label>
+                <textarea  id="skills" name="skills" rows="4" required></textarea> <br><br>
+                </fieldset>
+        
+        
+        <button type="submit">GENERATE RESUME</button>
+            </form>
+        <br><br>
+
+    
+        </div> 
+    
+    
+    </div>
+    <div id="resumeoutput" contenteditable="true">
+        <!-- // resume generate2 -->
+        </div>
+    
+        <script src="script.js"></script>
+
+    </div>
+    </div>
+
+
+</body>
+</html>

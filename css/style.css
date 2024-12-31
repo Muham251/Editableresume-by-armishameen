@@ -1,0 +1,222 @@
+
+
+
+html {
+    font-size: 19px;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(254, 251, 251);
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(238, 241, 245);
+    width: 100%;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 0 2px 20px black;
+    border: 19px groove #666;
+}
+
+.header {
+    text-align: center;
+}
+
+.discription {
+    color: rgb(128, 120, 120);
+    font-size: 14px;
+}
+
+.name {
+    font-weight: 500;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.main {
+    padding: 40px;
+}
+
+.heading {
+    padding: 14px;
+    color: whitesmoke;
+    background-color: black;
+    margin: 30px 40px;
+    font-size: 20px;
+    border-radius: 0 50px 50px 0;
+    letter-spacing: 1px;
+}
+
+/* Form Styling */
+form {
+    margin: auto;
+    padding: 40px;
+}
+
+fieldset {
+    padding: 1.5rem;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: rgb(17, 17, 17);
+}
+
+textarea,
+input {
+    width: calc(100% - 1px);
+    padding: 5px;
+    margin-top: 5px;
+    border: 2px solid rgb(5, 5, 5);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: inline-block;
+    padding: 18px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 29vh;
+    margin-top: 5vh;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(109, 109, 113);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #060606;
+}
+
+button:hover {
+    background-color: #000000;
+}
+
+button:active {
+    background-color: #0e0e0f;
+    box-shadow: 0 5px #666;
+}
+
+/* Resume Output */
+#resumeoutput {
+    max-width: 600px;
+    outline: none;   
+       /* outline make it editable  */
+    margin: auto;
+    padding: 20px;
+    border: 3px solid;
+    border-radius: 8px rgb(26, 26, 36);
+    background-color: rgb(249, 249, 249);
+}
+
+#resumeoutput h2 {
+    color: rgb(104, 104, 107);
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+    .heading {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    html {
+        font-size: 18px; 
+    }
+
+    .container {
+        width: 95%;
+        height: auto; 
+    }
+
+    .main {
+        padding: 30px;
+    }
+
+    .heading {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 18px;
+        margin-left: 20vh; 
+    }
+
+    form {
+        padding: 30px; 
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 20px;
+        padding: 15px;
+        box-shadow: none;
+        border: none;
+    }
+
+    .heading {
+        font-size: 14px;
+        margin: 15px;
+    }
+
+    button {
+        font-size: 16px;
+        width: 100%; 
+        margin-left: 0;
+    }
+
+    form {
+        padding: 20px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    html {
+        font-size: 14px; 
+    }
+
+    .container {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 1.5em; 
+    }
+
+    .heading {
+        font-size: 12px;
+        padding: 20px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 12px 15px;
+    }
+
+    form {
+        padding: 15px;
+    }
+}
